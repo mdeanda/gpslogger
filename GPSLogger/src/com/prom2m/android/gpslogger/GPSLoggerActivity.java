@@ -267,7 +267,7 @@ public class GPSLoggerActivity extends Activity {
 	private void initFileBuf(StringBuffer fileBuf, HashMap valuesMap) {
 		fileBuf.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
 		fileBuf.append("<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n");
-		fileBuf.append("	<Document>\n");
+		fileBuf.append("  <Document>\n");
 		fileBuf.append("    <name>"+valuesMap.get("FILENAME")+"</name>\n");
 		fileBuf.append("    <description>GPSLogger KML export</description>\n");
 		fileBuf.append("    <Style id=\"yellowLineGreenPoly\">\n");
