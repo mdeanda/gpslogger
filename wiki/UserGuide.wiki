@@ -2,10 +2,10 @@
 
 == Quick Start ==
 
-Launch the application and press the 'Start' button.  The GPS receiver will turn on, and once it has locked on your position with reasonable accuracy it will begin recording points.  Press the 'Stop' button to turn off the GPS receiver.  
-
-== Architecture Details ==
-
+Launch the application and press the 'Start' button.  The GPS receiver will turn on, and once it has locked on your position with reasonable accuracy it will begin recording points.  Press the 'Stop' button to turn off the GPS receiver.  Press the 'Export KML to SD Card' to write out your current trip as a KML file on your handset's SD card.  
 
 == KML Export Details ==
 
+The application records one trip at a time.  Each time you enter a new trip name and press 'Start New Trip', the current database of location points will be exported to your SD card using the previous trip name, then the database will be cleared.
+
+When you export a KML file with the 'Ground' radio button selected, the resulting KML file will use the 'clampToGround' altitude mode, ignoring the recorded altitude.  If you're recording 
