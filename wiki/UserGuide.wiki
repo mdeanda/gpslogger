@@ -1,0 +1,11 @@
+#summary How to use the GPSLogger service on your G1 (and future Android handsets)
+
+== Quick Start ==
+
+Launch the application and press the 'Start' button.  The GPS receiver will turn on, and once it has locked on your position with reasonable accuracy it will begin recording points.  Press the 'Stop' button to turn off the GPS receiver.  
+
+== Architecture Details ==
+
+
+== KML Export Details ==
+
