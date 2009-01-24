@@ -2,7 +2,7 @@
 
 == Quick Start ==
 
-Launch the application and press the 'Start' button.  The GPS receiver will turn on, and once it has locked on your position with reasonable accuracy it will begin recording points.  Press the 'Stop' button to turn off the GPS receiver.  Press the 'Export KML to SD Card' to write out your current trip as a KML file on your handset's SD card.  
+Launch the application and press the 'Start' button.  The GPS receiver will turn on, and once it has locked on your position with reasonable accuracy it will begin recording points.  Press the 'Stop' button to turn off the GPS receiver.  Press the 'Export KML to SD Card' to write out your current trip as a KML file on your handset's SD card.  GPSLogger will write out KML files in the /GPSLogger folder.
 
 == KML Export Details ==
 
