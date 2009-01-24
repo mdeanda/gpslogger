@@ -226,12 +226,15 @@ public class GPSLoggerActivity extends Activity {
     					"Export completed!",
     					Toast.LENGTH_LONG).show();
 			} else {
-				throw new Exception("Query found no logged data in "
-						+ GPSLoggerService.POINTS_TABLE_NAME);
+				throw new Exception("I didn't find any location points in the database, so I could create a KML file.  Sorry.");
 			}
+		} catch (FileNotFoundException fnfe) {
+			Toast.makeText(getBaseContext(),
+					"Error trying access the SD card.  Make sure your handset is not connected to a computer and the SD card is properly installed",
+					Toast.LENGTH_LONG).show();
 		} catch (Exception e) {
 			Toast.makeText(getBaseContext(),
-					"Error trying to export: " + e.toString(),
+					"Error trying to export: " + e.getMessage(),
 					Toast.LENGTH_LONG).show();
 		} finally {
 			if (cursor != null && !cursor.isClosed()) {
