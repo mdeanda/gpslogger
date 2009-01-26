@@ -226,7 +226,9 @@ public class GPSLoggerActivity extends Activity {
     					"Export completed!",
     					Toast.LENGTH_LONG).show();
 			} else {
-				throw new Exception("I didn't find any location points in the database, so I could create a KML file.  Sorry.");
+				Toast.makeText(getBaseContext(),
+						"I didn't find any location points in the database, so no KML file was exported.",
+						Toast.LENGTH_LONG).show();
 			}
 		} catch (FileNotFoundException fnfe) {
 			Toast.makeText(getBaseContext(),
