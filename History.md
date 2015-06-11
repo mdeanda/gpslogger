@@ -1,0 +1,5 @@
+I finally gave up my Nokia N-Gage for the G1.  Using my N-Gage, a bluetooth GPS unit, and the super excellent MapViewGPS program, I could record GPS tracks of various treks and export them into KML files.  My two favorite times to use this setup: skiing and flying.  Skiing, well, it's kind of cool to review everywhere you went.  And I'm training to get my private pilot's license.  It's actually quite useful to review the track--with altitude--in Google Earth to review my turns about a point, S-turns, patterns and approaches.
+
+So when I got my G1, I didn't like the choices of GPS applications, so I decided to write my own.  By open-sourcing it, I hope other like-minded individuals will eventually join the project and improve the application.  As this is my first Android application, I can certainly use suggestions for improvments, both from a coding perspective and the user's perspective.
+
+Presently you'll need to checkout the code from subversion, build, and install it yourself.  I'll probably get around to publishing it on Android Market, but, I haven't yet gotten around to checking in the version 0.1 source code.  Stay tuned...
